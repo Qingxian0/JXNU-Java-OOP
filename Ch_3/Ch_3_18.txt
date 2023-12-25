@@ -1,0 +1,16 @@
+package com.infoMS.A;
+public class 市场部{
+	private   double 成本价;
+	double 出厂价;
+	protected double 代理价;
+	public    double 销售价;
+}
+public class 直营店{ … }
+
+package com.infoMS.B;
+import com.infoMS.A;
+public class 普通超市{ … }
+
+package com.infoMS.C;
+import com.infoMS.A;
+public class 代理商{ … }

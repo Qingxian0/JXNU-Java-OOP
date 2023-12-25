@@ -1,0 +1,12 @@
+class T{
+	public static void main (String[] args) {
+		int n=3650;
+		double s=800000;
+		for(int i=1; i<=n; i++)s=s+s*0.0001;
+		System.out.print("s="+s/10000);
+		//System.out.print(3926/100.0+"   "+6/100.0);
+	}
+}
+===测试中文读写的完整性==
+sd
+结束标志##
